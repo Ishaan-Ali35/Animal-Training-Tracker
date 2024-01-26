@@ -1,0 +1,55 @@
+.user_info_container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+  float: left;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+}
+.delete {
+  padding: 5px;
+  background-color: white;
+  border-style: none;
+  font-size: 20px;
+}
+.delete:hover {
+  font-weight: bold;
+  transition: font-weight 250ms ease;
+  cursor: pointer;
+}
+.user_name {
+  font-size: 20px;
+}
+.first_letter {
+  font-size: 25px;
+}
+.user_identifier {
+  font-size: 14px;
+}
+.user_info_left {
+  display: flex;
+  flex-direction: row;
+}
+.user_logo {
+  background-color: #d21312;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 7px;
+}

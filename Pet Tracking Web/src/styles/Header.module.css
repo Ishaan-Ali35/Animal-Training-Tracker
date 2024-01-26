@@ -1,0 +1,36 @@
+.headerBox {
+  border-bottom: 1px solid #7c7171;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 10px 20px;
+  font-size: 15px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-style: none;
+  background-color: white;
+  border-radius: 5px;
+  width: 100px;
+  font-family: 'Heebo';
+  padding: 5px;
+}
+.create:hover {
+  background-color: #dcdcdc;
+  transition: background-color ease 150ms;
+  cursor: pointer;
+}
+.text {
+  color: #7c7171;
+  font-weight: bold;
+}
+.header_title {
+  font-size: 18px;
+}

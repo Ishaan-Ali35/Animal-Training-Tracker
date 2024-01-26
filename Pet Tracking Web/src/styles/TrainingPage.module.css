@@ -1,0 +1,14 @@
+.contentType {
+  font-size: 17px;
+}
+.trainingList {
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+.trainingStuff {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 55px);
+  
+}

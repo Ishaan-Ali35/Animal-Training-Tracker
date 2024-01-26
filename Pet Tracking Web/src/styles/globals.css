@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Heebo';
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.spinner {
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  border-top: 20px solid #333;
+  border-radius: 50%;
+  width: 20vb;
+  height: 20vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
